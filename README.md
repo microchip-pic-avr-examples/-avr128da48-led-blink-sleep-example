@@ -3,7 +3,7 @@
 # AVR128DA48 LED Blink with Sleep Operation Code Example
 
 This repository provides an Atmel Studio solution with a bare metal code example for an LED blink and sleep application. The AVR-da is woken up from sleep using TCA0 interrupt.
-This example demonstrates simple toggling on a LED connected to PC6 with a period of 500 milliseconds. After toggling the LED, the device enters sleep until it gets woken up by an interrupt from TCA0.
+This example demonstrates simple toggling on a LED connected to PC6 with an on/off cycle period of 1 second (the LED will toggle each 500 milliseconds). After toggling the LED, the device enters sleep until it gets woken up by an interrupt from TCA0.
 
 ## Related Documentation
 More details and code examples on the AVR128DA48 can be found at the following links:
@@ -60,4 +60,4 @@ Demo:
 <br><img src="images/AVR-DA_led_blink_sleep.gif" width="500">
 
 ## Summary
-This example demonstrates simple toggling on a LED connected to PC6 with a period of 500 milliseconds. After toggling the LED, the device enters sleep until it gets woken up by an interrupt from TCA0.
+This example demonstrates simple toggling on a LED connected to PC6 with an on/off cycle period of 1 second (the LED will toggle each 500 milliseconds). After toggling the LED, the device enters sleep until it gets woken up by an interrupt from TCA0.

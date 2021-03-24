@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-led-blink-sleep-example",
         "version": "1.0.3",
-        "displayName": "Wake-up from sleep",
+        "displayName": "LED Blink with Sleep Operation",
         "projectName": "avr128da48-led-blink-sleep-example",
         "shortDescription": "This repository provides a Microchip Studio solution for how Wake-up the device from sleep, using Timer Counter A interrupt, to toggle an LED.",
         "ide": {
@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx",
-            "semverRange": "1.6.88"
+            "semverRange": "^1.6.88"
         },
         "configurator": {
             "name": "N/A",
@@ -47,10 +47,10 @@
             "TCA"
         ],
         "keywords": [
-            "LED toggle",
+            "LED Blink",
             "Sleep",
-            "TCA",
-            "Wake-up"
+            "Wake-up",
+			"Getting Started"
         ],
 		"additionalData": {
 			"longDescription": {
